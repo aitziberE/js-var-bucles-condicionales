@@ -43,3 +43,47 @@ while(i<10){
     i++;
     console.log(sumaPares);
 }
+
+//iteraciones
+//variables
+let variableValorNumerico=1;
+
+const MiNombre="Aitziber";
+
+const MiNumeroFav=1;
+
+//booleanos
+let booleanoOr= booleano1+booleano2;
+let booleanoMix1 = (booleano1 && TAU / 2 === PI) || (variableValorNumerico >= MiNumeroFav);
+let seisNoEsNueve = 6 !== 9;
+let booleanoMix2 = variableValorNumerico > 0 || variableValorNumerico < -(MiNumeroFav * TAU);
+
+//operadores
+let valorSuma = MiNumeroFav+variableValorNumerico;
+let valorResta = MiNumeroFav-variableValorNumerico;
+let valorMultiplicación = MiNumeroFav*variableValorNumerico;
+let valorDivisión = MiNumeroFav/3;
+
+//bucles
+let contarHasta10 = 0;
+i=0;
+while(contarHasta10===10){
+    contarHasta10+=1;
+    i++;
+}
+
+let preI = 0, preJ  = 0;
+i = 0
+while (preJ  <= 10)
+{
+    preJ ++;
+    i += ++preI;
+}
+
+let sumaImpares=0;
+i=0;
+while(i<10){
+    if(i%2!=0){
+        sumaImpares+=i;
+    }
+}
