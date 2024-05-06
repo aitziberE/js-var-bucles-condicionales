@@ -53,7 +53,7 @@ const MiNombre="Aitziber";
 const MiNumeroFav=1;
 
 //booleanos
-let booleanoOr= booleano1+booleano2;
+let booleanoOr= booleano1 || booleano2
 let booleanoMix1 = (booleano1 && TAU / 2 === PI) || (variableValorNumerico >= MiNumeroFav);
 let seisNoEsNueve = 6 !== 9;
 let booleanoMix2 = variableValorNumerico > 0 || variableValorNumerico < -(MiNumeroFav * TAU);
@@ -61,29 +61,29 @@ let booleanoMix2 = variableValorNumerico > 0 || variableValorNumerico < -(MiNume
 //operadores
 let valorSuma = MiNumeroFav+variableValorNumerico;
 let valorResta = MiNumeroFav-variableValorNumerico;
-let valorMultiplicación = MiNumeroFav*variableValorNumerico;
-let valorDivisión = MiNumeroFav/3;
+let valorMultiplicacion = MiNumeroFav * variableValorNumerico
+let valorDivision = MiNumeroFav/3;
 
 //bucles
 let contarHasta10 = 0;
 i=0;
-while(contarHasta10===10){
+while(contarHasta10!==10){
     contarHasta10+=1;
     i++;
 }
 
-let preI = 0, preJ  = 0;
+let preI = 0
+let preJ  = 0;
 i = 0
-while (preJ  <= 10)
+while (i  <= 10)
 {
-    preJ ++;
-    i += ++preI;
+    i ++;
+    preI += ++preJ;
 }
 
-let sumaImpares=0;
-i=0;
-while(i<10){
-    if(i%2!=0){
-        sumaImpares+=i;
-    }
+let sumaImpares = 0;
+i = 1;
+while (i < 10) {
+    sumaImpares += i;
+    i += 2;
 }
